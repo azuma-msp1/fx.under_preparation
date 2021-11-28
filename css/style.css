@@ -1,0 +1,164 @@
+body {
+	font-family: serif;
+	background: lightgrey;
+	line-height: 1.5;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	background: #fff;
+}
+
+h1 span {
+	color: green;
+	text-shadow: grey 2px 2px 4px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	background: darkblue;
+	padding: 10px 20px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: blue;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+p {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+ul {
+	padding: 10px 40px;
+}
+
+li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+}
+
+@media screen and (max-width:1200px) {
+	.container{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width:560px) {
+	.container{
+		width: 100%;
+	}
+}
+
+.banner-area {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.button-area {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.open-account {
+	width: 280px;
+	text-align: center;
+	display: block;
+	background: #29A643;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 28px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.index-area {
+	width: 400px;
+	border: blue dashed 3px;
+	margin-left: 50px;
+}
+
+.page-button-area {
+	height: 150px;
+}
+
+.page-button-area ul {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.current {
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.page-link {
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: blue;
+	text-decoration: underline;
+}
+
+.page-link:visited {
+	color: purple;
+}
+
+.prev-next-button {
+	margin-left: 10px;
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: blue;
+	color: #fff;
+}
+
+footer {
+	height: 200px;
+	background: #fff;
+	text-align: center;
+}
+
+.disclaimer {
+	padding-top: 40px;
+	color: red;
+}
+
+.under-preparation {
+	color: dimgray;
+	font-size: 36px;
+	height: 100vh;
+	padding-top: 80px;
+	padding-left: 80px;
+}
